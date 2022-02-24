@@ -29,6 +29,7 @@ private:
 	string hexName;
 
 public: 
+	int getLength() const;
 	string getHex() const;
 	uint32_t getInt() const;
 	void setHex(string h);

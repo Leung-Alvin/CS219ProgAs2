@@ -176,6 +176,11 @@ uint32_t HexNum::getInt() const{
 	return intVal;
 }
 
+
+int HexNum::getLength() const{
+	return len;
+}
+
 /**
     Assigns a new hexadecimal value for this Hex Number (Work in Progress and not needed for this assignment)
     @param h a string representing the new hexadecimal value for this Hex Number
